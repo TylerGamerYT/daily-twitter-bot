@@ -54,4 +54,3 @@ while True:
     
     time.sleep(wait_seconds)
     post_message()
-
