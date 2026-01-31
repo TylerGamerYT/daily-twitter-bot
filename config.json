@@ -9,13 +9,3 @@ config.json
   "FIXED_HOUR": 14,
   "FIXED_MINUTE": 30
 }
-
-Notes:
-
-Replace "YOUR_API_KEY_HERE" etc. with your actual Twitter/X API keys.
-
-"POST_MESSAGE" → The message the bot will post daily. Users can edit this.
-
-"MODE" → "random" for a random daily time, "fixed" for a set time.
-
-"FIXED_HOUR" and "FIXED_MINUTE" → Only used if "MODE" is "fixed".
