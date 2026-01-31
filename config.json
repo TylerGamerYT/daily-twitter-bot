@@ -1,12 +1,21 @@
+config.json
 {
   "API_KEY": "YOUR_API_KEY_HERE",
   "API_SECRET": "YOUR_API_SECRET_HERE",
   "ACCESS_TOKEN": "YOUR_ACCESS_TOKEN_HERE",
   "ACCESS_SECRET": "YOUR_ACCESS_SECRET_HERE",
-
   "POST_MESSAGE": "hello world",
-
   "MODE": "random",
   "FIXED_HOUR": 14,
   "FIXED_MINUTE": 30
 }
+
+Notes:
+
+Replace "YOUR_API_KEY_HERE" etc. with your actual Twitter/X API keys.
+
+"POST_MESSAGE" → The message the bot will post daily. Users can edit this.
+
+"MODE" → "random" for a random daily time, "fixed" for a set time.
+
+"FIXED_HOUR" and "FIXED_MINUTE" → Only used if "MODE" is "fixed".
